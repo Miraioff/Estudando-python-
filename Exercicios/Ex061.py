@@ -5,13 +5,13 @@ print(f'\033[1;36m{"PA GENERATOR":^50}')
 print(line)
 
 first = int(input(f'\033[1;36mFirst term: '))
-reason = int(input(f'reason: '))
+reason = int(input(f'Reason: '))
 term = first
 c = 1
 while c <= 10:
     print(f'\033[1;32m{term}', end='\033[1;35m -> \033[m')
-    #Update the term by adding the ratio
+    #Update the term by adding the reason
     term += reason
     c += 1
 print(f'\033[1;32mEND\033[m')
-# Displyas the first 10 terms os an PA
+# Displays the first 10 terms os an PA
